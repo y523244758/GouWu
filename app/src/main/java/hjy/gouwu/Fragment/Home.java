@@ -19,7 +19,7 @@ public class Home extends Fragment{
                              Bundle savedInstanceState) {
 
         //加载布局
-        View view=inflater.inflate(R.layout.home, container, false);
+        View view=inflater.inflate(R.layout.myhome, container, false);
 
         return view;
     }
