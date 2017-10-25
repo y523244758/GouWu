@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:background="@drawable/close" />
+
+    <LinearLayout
+        android:background="@drawable/shape_pop"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@mipmap/ic_launcher"
+                android:id="@+id/popimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#ff7b00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/popprice"
+                    android:text="￥89000.00"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/popcount"
+                    android:text="库存110件"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="类别分类："
+                />
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手表/劳力士"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a4a4a4"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="购买个数："
+                />
+            <RelativeLayout
+                android:layout_marginLeft="190dp"
+                android:background="@drawable/shape_jiajian"
+                android:layout_centerInParent="true"
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                >
+                <ImageButton
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/jian"
+                    android:id="@+id/subbt"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    />
+                <ImageButton
+                    android:id="@+id/addbt"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/jia"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/edt"
+                    android:layout_width="24dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="12dp"
+                    android:cursorVisible="false"
+                    >
+
+                    <requestFocus />
+                </EditText>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    <Button
+        android:textColor="#ffff"
+        android:background="#ff5e00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popjoinshooping"
+        android:text="确定"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

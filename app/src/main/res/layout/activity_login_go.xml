@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hjy.gouwu.Login_register.Login_go"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ddf6fc"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/uik_nav_home_selected"
+        android:layout_marginBottom="50dp"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF4081"
+            android:text="用户姓名："
+            />
+        <EditText
+            android:id="@+id/login_username"
+            android:background="@drawable/shape_edittext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户密码："
+            android:textColor="#FF4081"
+            />
+        <EditText
+            android:id="@+id/login_userpwd"
+            android:background="@drawable/shape_edittext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:password="true"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/login_bt"
+        android:background="@drawable/button_sty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="登录" />
+    <TextView
+        android:id="@+id/login_register"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有账号注册"
+        />
+
+</LinearLayout>

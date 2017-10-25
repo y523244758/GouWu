@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hjy.gouwu.search_home.goods_detail.to_goods_detail"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/goodsdetail_img"
+            android:background="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/goodsdetail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="劳力士Rolex 日志型系列 116200 63200 自动机械钢带男表联保正品"
+            />
+
+        <TextView
+            android:text="【雅欧国际】：所有商品全新原装正品"
+            android:textColor="#ff11"
+            android:id="@+id/goodsdetail_jingle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:text="￥42800.00"
+                android:textColor="#f4501e"
+                android:id="@+id/goodsdetail_promotion_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textColor="#f4501e"
+                android:textSize="10dp"
+                android:text="促销价格"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="10dp"
+                android:text="市场价格￥52800.00—52800.00"
+                android:id="@+id/goodsdetail_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/goodsdetail_area_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全国:"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/goodsdetail_content"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="包邮"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/goodsdetail_store_cn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有货"
+            />
+        <TextView
+            android:id="@+id/goodsdetail_store_name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xx商城"
+            />
+    </LinearLayout>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#aeabab"
+    />
+<WebView
+    android:layout_weight="1"
+    android:id="@+id/goodsdetail_wbview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></WebView>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/goodsdetai_shopping"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="立刻购买" />
+
+    <Button
+        android:id="@+id/goodsdetail_joinshopping"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="加入购物车" />
+</LinearLayout>
+</LinearLayout>
